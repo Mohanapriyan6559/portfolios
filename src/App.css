@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bg-primary{
+    background: #000000;
+}
+.bg-sec{
+    background:rgb(99, 182, 230);
+}
+.bg-thr{
+    background: rgb(85, 139, 198);
+}
+.bg-h1{
+    color: #ffd700;
+} 
+.bg-pr1{
+background: #ffd700;
+}
+.bg-pr2{
+    background: #1a2290;
+}
+.bg-download{
+    color:white
+}
+.bg-pr3{
+    background: #4337c4;
+}
+header ul li{
+    @apply px-5;
+}
+.mob-nav{
+  @apply fixed top-10 h-1/4  left-0 w-full bg-black;
+}
+.mob-nav ul li{
+    @apply  text-center border-b-2 h-full;
+}
+.project-des{
+    @apply absolute left-0 right-0 bottom-0 top-0 bg-pr2   opacity-0 duration-700 hover:opacity-90  text-white font-bold
+}
+.btn{
+    @apply bg-pr3 px-2  bg-download  font-bold  rounded-[10] hover:border-2 border-black bg-pr2;
+}
+html{
+    scroll-behavior: smooth;
+}
